@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule Seu IMC</h1>
+    </header>
+    <main class="main">
+        <section class="principal">
+            <div class="texto__inicial">
+                <p class="para__calcular">Para calcular seu IMC insira seus dados e clique no botão calcular.</p>
+            </div>
+
+            <div class="inputs">
+                <label for="peso" class="label__peso">Peso:</label>
+                <input type="number" id="peso">
+
+                <label for="altura" class="label__altura">Altura:</label>
+                <input type="number" id="altura">
+
+                <input type="button" onclick="calculaImc()" value="Calcular" class="botao">
+            </div>
+
+            <div class="res"></div>
+        </section>
+        <section class="texto">
+            <p class="como__calcular">Como esses valores são calculados? O IMC é determinado pela divisão da massa do indivíduo pelo quadrado de sua altura, em que a massa está em quilogramas e a altura em metros.</p>
+
+            <div class="formula__tabela">     
+                <img src="img/formula1.svg" class="imagens imagem__formula1" alt="">
+                <h2>Exemplo de IMC</h2> 
+                <p>Para uma pessoa com 90 quilogramas de massa e 1,75 metros de altura, teremos</p>
+                <img src="img/formula2.svg" class="imagens imagem__formula2" alt="">
+                <p>Você pode utilizar a tabela abaixo para consultar o seu índice de massa corporal.</p>
+                <img src="img/tabela.png" class="imagens imagem__tabela" alt="">
+            </div>
+
+            <div class="textos__finais">
+                <p>Índice considerado ideal para adultos, um IMC entre 20 e 22 indica a quantidade ideal, saudável de gordura corporal, o que está associado com maior tempo de vida e menor incidência de doenças graves. Coincidentemente, essa relação é o que muitas pessoas consideram ser «o mais esteticamente atraente». Entretanto, é importante ressaltar que um índice entre 22 e 25 também é considerado um intervalo bastante aceitável, pois está igualmente associado à boa saúde. Pesquisas recentes apontaram que um IMC entre 23 e 25 é considerado o que garante taxas de sobrevivência mais longas aos indivíduos. O autor Charles E. Phelps corrobora tal informação ao afirmar em um de seus livros:</p>
+
+                <p class="texto__final">«Tanto para mulheres como para homens, a melhor taxa de sobrevivência aparece nos grupos de pessoas cujo IMC está entre 23 e 25. O risco relativo aumenta para pessoas com números mais altos ou mais baixos que esse índice massa corporal tido como “mais seguro”.»</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text__footer">@Copyright - 2022. Thiago.C</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

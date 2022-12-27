@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 40px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .principal {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inputs {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #peso {
+        margin-bottom: 20px;
+        padding: 5px;
+        width: 50%;
+    }
+
+    #altura {
+        margin-bottom: 20px;
+        padding: 5px;
+        width: 50%;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .textos__finais {
+        margin-bottom: 20px;
+    }
+}

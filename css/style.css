@@ -1,0 +1,101 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    align-items: center;
+    background-color: #222222;;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    height: 75px;
+    justify-content: center;
+}
+
+h1 {
+    padding: 10px auto;
+}
+
+.principal {
+    text-align: center;
+}
+
+.texto__inicial { 
+    margin: 20px auto 30px;
+}
+
+.para__calcular {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inputs {
+     margin: 0 0 20px;
+}
+
+.botao {
+    margin-left: 20px;
+}
+
+.res {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 35px auto;
+}
+
+.como__calcular {
+    margin-bottom: 20px;
+}
+
+.formula__tabela {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.imagens {
+    display: block;
+    margin: 20px auto;
+}
+
+.texto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    margin: 0 5px 0 20px;
+    font-size: 20px;
+}
+
+.textos__finais {
+    text-align: center;
+}
+
+.texto__final {
+    margin: 20px 0 20px;
+}
+
+footer {
+    height: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.text__footer {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
