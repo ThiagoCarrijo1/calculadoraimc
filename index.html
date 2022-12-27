@@ -16,15 +16,15 @@
     <main class="main">
         <section class="principal">
             <div class="texto__inicial">
-                <p class="para__calcular">Para calcular seu IMC insira seus dados e clique no botão calcular.</p>
+                <p class="para__calcular">Para calcular seu IMC insira seu peso e sua altura e clique no botão calcular.</p>
             </div>
 
             <div class="inputs">
                 <label for="peso" class="label__peso">Peso:</label>
-                <input type="number" id="peso">
+                <input type="number" id="peso" required>
 
                 <label for="altura" class="label__altura">Altura:</label>
-                <input type="number" id="altura">
+                <input type="number" id="altura" required>
 
                 <input type="button" onclick="calculaImc()" value="Calcular" class="botao">
             </div>
