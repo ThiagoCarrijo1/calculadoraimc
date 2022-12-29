@@ -35,3 +35,7 @@ function calculaImc() {
         res.classList.add("peso-risco");
     }
 }
+
+var clickBotao = document.querySelector(".botao");
+
+clickBotao.addEventListener("click", calculaImc);
